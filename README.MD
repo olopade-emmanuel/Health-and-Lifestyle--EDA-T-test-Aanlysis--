@@ -250,4 +250,4 @@ Therefore, There's no significant difference in the average hours of sleep obser
 
 ### CONCLUSION
 ---
-**Theoretically, a large parcentage of humans on earth believe Women below the age of 40 years sleep more than men below the age barrier. This research, though micro-scaled, shows that statistically there's no difference is the average hours of sleep observed daily by each gender.** >Therefore, theory might not be completely true as other factors other than age might be considered.
+**Theoretically, a large parcentage of humans on earth believe Women below the age of 40 years sleep more than men below the age barrier. This research, though micro-scaled, shows that statistically there's no difference is the average hours of sleep observed daily by each gender.** > Therefore, this theory might not be completely true as other factors other than age might be considered.
