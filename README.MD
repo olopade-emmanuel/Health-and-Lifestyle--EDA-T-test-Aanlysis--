@@ -2,7 +2,7 @@
 
 ### OVERVIEW
 ---
-T-test is an inferential statistical method commonly used compare the mean(s) of 2 groups i.e sample and population. It is used to check if there's a significant difference between the mean(s) of the 2 groups. 
+T-test is an inferential statistical method commonly used to compare the mean(s) of 2 groups i.e sample and population. It is used to check if there's a significant difference between the mean(s) of the 2 groups. 
 
 ### About Dataset
 ---
