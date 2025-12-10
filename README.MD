@@ -6,28 +6,24 @@ T-test is an inferential statistical method commonly used to compare the mean(s)
 
 ### About Dataset
 ---
-The health and lifestyle dataset was downloaded from [Kaggle](www.kaggle.com). The dataset contains health records of 100,000 individuals in 15 health and lifestyle related indicator columns. They are; 
-1. Age: age of patients in years.
-1. Gender: patients identity.
-1. BMI: body mass index.
-1. Daily_steps: average count of steps taken by individuals daily (activeness mesaurement).
-1. Sleep_hours: average hours of sleep observed by individals daily.
-1. water_intake_l: average volume of water in litres taken by individuals daily.
-1. Calories_consumed: total amount of calories consumed by individuals daily.
-1. Smoker: smoking status.
-    1: smoker, 0: non-smoker.
-1. Alcohol: alcohol consumption status. 
-    1: Consumes alcohol, 0: Does not consume alcohol,
-1. Resting_hours: average heart-rate hours of rest per minutes.
-1. Systolic_bp: systolic blood pressure(measured in mmhg).
-1. Diastolic_bp: diastolic blood pressure (measured in mmhg).
-1. Cholesterol: cholesterol level (mg/dl)
-1. Family_history: Genetic indicator, 
-    1: family history of lifestyle disease
-    0: no family history of lifestyle disease
-1. Disease_risk: disease prediction indicator.
-    1: at risk of lifestyle related disease
-    0: not at risk of lifestyle related disease.
+The health and lifestyle dataset was downloaded from [Kaggle](www.kaggle.com). The dataset contains health records of 100,000 individuals in 15 health and lifestyle related indicator columns. They are;
+S/N|COLUMN|DESCRIPTION|
+|-----|-----|-----|
+1.|Age|age of patients in years.
+2.|Gender| patients identity.
+3.|BMI| body mass index.
+4.|Daily_steps| average count of steps taken by individuals daily (activeness mesaurement).
+6.|Sleep_hours| average hours of sleep observed by individals daily.
+7.|water_intake_l|average volume of water in litres taken by individuals daily.
+8.|Calories_consumed| total amount of calories consumed by individuals daily.
+9.|Smoker| smoking status.   1: smoker, 0: non-smoker.  
+10.|Alcohol| alcohol consumption status. 1: Consumes alcohol, 0: Does not consume alcohol,
+11.|Resting_hours|average heart-rate hours of rest per minutes.
+12.|Systolic_bp|systolic blood pressure(measured in mmhg).
+13.|Diastolic_bp| diastolic blood pressure (measured in mmhg).
+14.|Cholesterol|cholesterol level (mg/dl)
+15.|Family_history|Genetic indicator, 1: family history of lifestyle disease, 0: no family history of lifestyle disease
+16.|Disease_risk| disease prediction indicator. 1: at risk of lifestyle related disease, 0: not at risk of lifestyle related disease.
 
 ### **SCOPE OF ANALYSIS**
 ---
