@@ -8,7 +8,7 @@ T-test is an inferential statistical method commonly used to compare the mean(s)
 ---
 The health and lifestyle dataset was downloaded from [Kaggle](www.kaggle.com). The dataset contains health records of 100,000 individuals in 15 health and lifestyle related indicator columns. They are;
 S/N|COLUMN|DESCRIPTION|
-|-----|-----|-----|
+|-----|-----|-------------------------|
 1.|Age|age of patients in years.
 2.|Gender| patients identity.
 3.|BMI| body mass index.
@@ -27,8 +27,12 @@ S/N|COLUMN|DESCRIPTION|
 
 ### **SCOPE OF ANALYSIS**
 ---
-A popular quote says "People who sleep very late have a higher risk of dying at a young age". In Africa, it has been observed that women tend to live longer than men although many individuals believe this is as a result of the hours of sleep or rest observed daily (a research fact on google) which helps to lower the blood pressure and other health challenges .
->In recent times, health professionals recommend adequate hours of sleep (a range of 6.5-9 hours daily) as a metric for a good health status most especially for young people below 40 years.
+A popular quote says "People who sleep very late have a higher risk of dying at a young age". In Africa, it has been observed that women tend to live longer than men although many individuals believe this is as a result of the hours of sleep or rest observed daily  which helps to lower the blood pressure and other health challenges. 
+>"Age- and Sex-Related Differences in Sleep Patterns and Their Relations to Self-Reported Sleep and Mood" by [Habiballah et al., 2025.](https://www.biorxiv.org/content/10.1101/2025.05.15.654262v1.full#ref-3) 
+
+> According to [Capone et al., 2019; Bar et al., 2021](https://www.biorxiv.org/content/10.1101/2025.05.15.654262v1.full#:~:text=Capone%20et%20al.%2C%202019%3B%20Bar%20et%20al.%2C%202021), sleep plays a key role in the human metabolic health, immune system resilience, and cognitive performance
+
+In recent times, local health professionals recommend adequate hours of sleep (a range of 6.5-9 hours daily) as a metric for a good health status most especially for young people below 40 years.
 
 This research focuses on understanding:
 + The Average hours of sleep observed by genders below 40 years in the dataset
@@ -122,6 +126,7 @@ import seaborn as sns
 ##### Null hypothesis = the average daily hours of sleep for men below 40 years is not equal to 6.5 hours.
 ##### Alt hypothesis = the average daily hours of sleep for men below 40 years is equal to 6.5 hours.
 
+
 >import scipy.stats as st
 below_40_males = health.loc[(health["Age"]<40) & (health["Gender"]=="Male")]
 below_40_males
@@ -131,6 +136,8 @@ t_stats = result_under40.statistic
 p_value = result_under40.pvalue
 df_40 = result_under40.df
 print(t_stats,p_value,df_40)
+
+
 
 #### Observation
 ---
@@ -247,3 +254,10 @@ Therefore, There's no significant difference in the average hours of sleep obser
 ### CONCLUSION
 ---
 **Theoretically, a large percentage of humans on earth believe Women below the age of 40 years sleep more than men below the age barrier. This research, though micro-scaled, shows that statistically there's no difference is the average hours of sleep observed daily by each gender.** > Therefore, the theory might not be completely true as other factors other than age might be considered.
+
+
+
+
+
+
+> To read the codes properly, check the code book in the repository 
